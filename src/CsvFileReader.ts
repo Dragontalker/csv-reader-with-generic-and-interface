@@ -1,1 +1,3 @@
-export class CsvFileReader {}
+export class CsvFileReader {
+  data: string[][] = [];
+}
