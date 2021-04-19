@@ -1,0 +1,20 @@
+{
+  "name": "typescript-soccer-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragontalker/typescript-soccer-stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dragontalker/typescript-soccer-stats/issues"
+  },
+  "homepage": "https://github.com/Dragontalker/typescript-soccer-stats#readme"
+}
