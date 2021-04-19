@@ -9,15 +9,9 @@ enum MatchResult {
   Draw = 'D'
 };
 
-const printMatchResult = (): MatchResult => {
-  if (match[5] === 'H') {
-    return MatchResult.HomeWin;
-  }
-}
-
 let manUnitedWinds = 0;
 
-for (let match of matches) {
+for (let match of reader.data) {
   if (match[1] === 'Man United' && match[5] === MatchResult.HomeWin) {
     manUnitedWinds++;
   } else if (match[2] === 'Man United' && match[5] === MatchResult.AwayWin) {
