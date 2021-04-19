@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { dateStringToDate } from './utils'; 
 
 export class CsvFileReader {
   data: string[][] = [];
