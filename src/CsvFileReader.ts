@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 export class CsvFileReader {
-  data: MatchData[] = [];
+  data: string[][] = [];
 
   constructor(public fileName: string) {}
 
