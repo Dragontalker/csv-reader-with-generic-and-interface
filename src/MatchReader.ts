@@ -1,1 +1,3 @@
-interface DataReader {}
+interface DataReader {
+  read(): void;
+}
