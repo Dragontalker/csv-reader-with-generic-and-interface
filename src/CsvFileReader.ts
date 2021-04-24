@@ -8,6 +8,8 @@ export abstract class CsvFileReader {
 
   constructor(public fileName: string) {}
 
+  abstract mapRow(row: string[]): MatchData;
+
   read(): void {
     this.data = fs
       .readFileSync(this.fileName, {
@@ -19,8 +21,4 @@ export abstract class CsvFileReader {
       })
       .map(this.mapRow);
     }
-  
-  mapRow(row: string[]): MatchData {
-    
-  }
 }
