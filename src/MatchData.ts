@@ -1,4 +1,3 @@
-
 import { MatchResult } from './MatchResult';
 
 export type MatchData = [
