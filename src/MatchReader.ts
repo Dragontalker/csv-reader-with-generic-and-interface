@@ -3,4 +3,6 @@ interface DataReader {
   data: string[][];
 }
 
-class MatchReader {}
+class MatchReader {
+  constructor(public reader: DataReader) {}
+}
