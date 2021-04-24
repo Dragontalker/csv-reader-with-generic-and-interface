@@ -10,5 +10,3 @@ const csvFileReader = new CsvFileReader('football.csv');
 const matchReader = new MatchReader(csvFileReader);
 matchReader.load();
 // matchReader.matches
-
-console.log(`Man United wond ${manUnitedWinds} games`);
