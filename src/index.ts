@@ -1,5 +1,4 @@
 import { MatchReader } from './MatchReader';
-import { MatchResult } from './MatchResult';
 import { CsvFileReader } from './CsvFileReader';
 
 // Create an object that satisfies the 'DataReader' interface
