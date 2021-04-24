@@ -11,6 +11,10 @@ interface DataReader {
 class MatchReader {
   constructor(public reader: DataReader) {}
 
+  load(): void {
+    this.reader.read();
+  }
+
   // .map((row: string[]): MatchData => {
   //   return [
   //     dateStringToDate(row[0]),
